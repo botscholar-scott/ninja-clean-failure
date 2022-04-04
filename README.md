@@ -16,6 +16,7 @@ Expected:
 Actual:
 Error in Build output window similar to,
 
+```
 ====================[ Clean | Debug ]===========================================
 "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --build C:\Users\Scott\src\GITROOT\botscholar-scott\ninja-clean-failure\cmake-build-debug --target clean
 [1/1] Cleaning all built files...
@@ -25,6 +26,7 @@ Cleaning... ninja: error: remove(_deps/libwebsockets-build/include/libwebsockets
 ninja: error: remove(C:/Users/Scott/src/GITROOT/botscholar-scott/ninja-clean-failure/cmake-build-debug/_deps/libwebsockets-build/include/libwebsockets): Permission denied
 79 files.
 ninja: build stopped: subcommand failed.
+```
 
 
 
